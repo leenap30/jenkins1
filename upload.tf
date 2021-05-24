@@ -4,11 +4,11 @@ provider "aws" {
 
 resource "aws_s3_bucket_object" "object" {
 
-  bucket = "awsbucketleena"
+  bucket = "awsbucketleena1"
   
-  key    = "profile"
+  key    = "profile3"
 
-  acl    = "private"  # or can be "public-read"
+  acl    = "public-read"
 
   source = "th.jpg"
 
