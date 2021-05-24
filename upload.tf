@@ -4,7 +4,7 @@ provider "aws" {
 
 resource "aws_s3_bucket_object" "object" {
 
-  bucket = "awsbucketleena1"
+  bucket = "awsbucketleena3"
   
   key    = "profile3"
 
