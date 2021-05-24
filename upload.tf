@@ -10,8 +10,8 @@ resource "aws_s3_bucket_object" "object" {
 
   acl    = "public-read"
 
-  source = "th.jpg"
+  source = "index.html"
 
-  etag = filemd5("th.jpg")
+  etag = filemd5("hindex.html")
 
 }
