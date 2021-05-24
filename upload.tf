@@ -1,13 +1,10 @@
 resource "aws_s3_bucket_object" "object" {
 
-  region = "us-east-2"
-  
   bucket = "awsbucketleena"
   
-
   key    = "profile"
 
-  acl    = "public-read"
+  acl    = "private"  # or can be "public-read"
 
   source = "th.jpg"
 
